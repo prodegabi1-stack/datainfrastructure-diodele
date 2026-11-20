@@ -1,0 +1,22 @@
+﻿# Secrete si variabile locale
+.env
+.env.local
+.dev.vars
+*.pem
+*.key
+
+# Dependente si build-uri
+node_modules/
+dist/
+build/
+.wrangler/
+.terraform/
+*.tfstate
+*.tfstate.*
+__pycache__/
+.venv/
+
+# Fisiere OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/

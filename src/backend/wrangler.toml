@@ -1,0 +1,16 @@
+name = "telemetry-worker"
+main = "src/index.js"
+compatibility_date = "2026-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pero_diodele"
+database_id = "39ed8046-a6ba-440f-9b3f-0585373a0750"
+
+[[durable_objects.bindings]]
+name = "TELEMETRY_HUB"
+class_name = "TelemetryHub"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["TelemetryHub"]
